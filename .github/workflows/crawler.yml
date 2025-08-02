@@ -61,3 +61,15 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+
+      - name: Copy output to docs
+        run: |
+          rm -rf docs/*
+          cp -r output/* docs/
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add docs/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update docs from output at $(TZ=Asia/Shanghai date)" && git push)

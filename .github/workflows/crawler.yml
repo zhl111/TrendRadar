@@ -5,6 +5,7 @@ on:
     - cron: "*/30 * * * *" # 每 30 分钟运行一次
   workflow_dispatch:
 
+# 添加权限设置
 permissions:
   contents: write
 
@@ -32,11 +33,13 @@ jobs:
 
           if [ ! -f config/config.yaml ]; then
             echo "❌ 错误: config/config.yaml 文件不存在"
+            echo "请参考项目文档创建配置文件"
             exit 1
           fi
 
           if [ ! -f config/frequency_words.txt ]; then
             echo "❌ 错误: config/frequency_words.txt 文件不存在"
+            echo "请参考项目文档创建频率词配置文件"
             exit 1
           fi
 
@@ -52,14 +55,9 @@ jobs:
           GITHUB_ACTIONS: true
         run: python main.py
 
-      - name: Push output folder to GitHub Pages
+      - name: Commit and push if changes
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          
-          # 防止 .gitignore 忽略 output
-          touch output/.keep
-
-          git add output
-          git commit -m "Update output folder for GitHub Pages" || echo "Nothing to commit"
-          git push
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)

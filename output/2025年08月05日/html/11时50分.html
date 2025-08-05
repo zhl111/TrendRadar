@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 206</p><p>生成时间: 2025-08-05 11:50:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">A股 港股 基金</td>
+                <td class="count">5</td>
+                <td class="percentage">2.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050407" target="_blank" class="news-link">港股异动丨钢铁股拉升 马鞍山钢铁大涨近13% 鞍钢股份涨超4%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3592687_101_1" target="_blank" class="news-link">软银愿景基金在2025年上半年出售了价值近20亿美元的资产；作为Ai转型的一部分，其买入了英伟达、台积电和甲骨文股份。</a> [6 - 26] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3592678_100_1" target="_blank" class="news-link">【行情】中国农业银行A股早盘涨2.2%，创历史新高。</a> [11] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050393" target="_blank" class="news-link">港股异动丨铜业股普涨 五矿资源涨超3% 智利铜矿巨头停产铜价连涨</a> [12] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050390" target="_blank" class="news-link">港股异动丨一脉阳光放量大涨近14%，预料中期盈利增长逾13倍</a> [15] <font color='grey'>- 11时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">利率 汇率</td>
+                <td class="count">4</td>
+                <td class="percentage">1.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805113042417800" target="_blank" class="news-link">越南央行要求银行降低存款利率</a> [8] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805111743654800" target="_blank" class="news-link">市场消息：越南央行要求贷款机构降低存款利率，以促进贷款利率下调。</a> [14] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3592668_100_1" target="_blank" class="news-link">越南央行要求贷款机构降低存款利率，以推动贷款利率下调。</a> [17] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805104548395800" target="_blank" class="news-link">野村：泰国央行可能因美国关税变动而维持利率不变</a> [26] <font color='grey'>- 11时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">债券 国债 信用债 企业债 地方债</td>
+                <td class="count">3</td>
+                <td class="percentage">1.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805113200023800" target="_blank" class="news-link">国债期货早盘收盘</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050398" target="_blank" class="news-link">大行评级｜瑞银：恢复征收债券增值税对银行的负面影响应属轻微</a> [7] <font color='grey'>- 11时50分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3592686_100_1" target="_blank" class="news-link">【行情】印度10年期基准政府债券收益率小幅上涨至6.3224%，前一交易日收报6.3179%。</a> [7 - 27] <font color='grey'>- 11时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美债 美股</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752640" target="_blank" class="news-link">“股神”特朗普又放话了：今天美股涨的很好，未来会有更多这样的日子</a> [9] <font color='grey'>- 11时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

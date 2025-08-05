@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-08-05 18:25:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">大宗商品 黄金</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3593524_0_1" target="_blank" class="news-link">【行情】现货黄金短线走低近6美元，失守3360美元/盎司，日内跌幅0.41%。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805175636170800" target="_blank" class="news-link">现货黄金短线走低近6美元，失守3360美元/盎司，日内跌幅0.41%。</a> [13] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美债 美股</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805181843902800" target="_blank" class="news-link">杰富瑞：美联储或使美股格局发生变化 小盘股有望跑赢大盘科技股</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805175601869800" target="_blank" class="news-link">瑞银预计10年前美债-德债收益率差将收窄</a> [14] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">A股 港股 基金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250805182123385800" target="_blank" class="news-link">市场消息：阿布扎比MGX公司在考虑为人工智能投资基金筹集数十亿美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">债券 国债 信用债 企业债 地方债</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2106686?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中兴通讯：完成发行35.84亿元H股可转换债券 用于加强公司算力产品研发投入</a> [10] <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">利率 汇率</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050773" target="_blank" class="news-link">中信银行(00998.HK)：3亿美元浮动利率票据拟8月6日上市</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

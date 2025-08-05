@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 81</p><p>生成时间: 2025-08-05 23:26:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">经济</td>
+                <td class="count">3</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3594618_0_1" target="_blank" class="news-link">美国对巴西商品征收关税：预计经济影响有限</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 23时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3594603_100_1" target="_blank" class="news-link">联合国拉丁美洲和加勒比经济委员会：将巴西2025年GDP增长预期从之前的2.0%上调至2.3%。</a> [6 - 26] <font color='grey'>- 23时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3594602_100_1" target="_blank" class="news-link">联合国拉丁美洲和加勒比经济委员会：将智利2025年GDP增长预期从2.2%上调至2.4%。</a> [7 - 27] <font color='grey'>- 23时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美债 美股</td>
+                <td class="count">3</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050959" target="_blank" class="news-link">美股异动｜英国石油涨超2% Q2经调整纯利远胜预期+上调季度股息</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050956" target="_blank" class="news-link">美股异动｜Hims &amp; Hers Health盘初一度大跌超13.6% 次季销售额低于预期</a> [6] <font color='grey'>- 23时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050955" target="_blank" class="news-link">美股异动｜美鹰服饰跌超8% 昨日大涨超23.6%创2000年来最大单日涨幅</a> [7] <font color='grey'>- 23时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">债券 国债 信用债 企业债 地方债</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050996" target="_blank" class="news-link">民银资本(01141.HK)认购及购买债券 涉资超1000万美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">利率 汇率</td>
+                <td class="count">1</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3594611_100_1" target="_blank" class="news-link">俄罗斯央行：将8月6日美元兑俄罗斯卢布官方汇率定为80.0490卢布（前值为79.6736）。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 23时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

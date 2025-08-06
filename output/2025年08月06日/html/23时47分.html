@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-08-06 23:47:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">债券 国债 信用债 企业债 地方债</td>
+                <td class="count">4</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806233242079800" target="_blank" class="news-link">美国至8月6日4个月国债竞拍-投标倍数 3.31，前值3.45。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806233235913800" target="_blank" class="news-link">美国至8月6日4个月国债竞拍-得标利率 4.105%，前值4.21%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时47分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3597739_101_1" target="_blank" class="news-link">【行情】美国5-30年期国债收益率刷新日高。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 23时47分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3597727_101_1" target="_blank" class="news-link">美国财政部拍卖四个月期国债，得标利率4.105%，投标倍数3.31。</a> [7 - 27] <font color='grey'>- 23时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">经济</td>
+                <td class="count">2</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806232449087800" target="_blank" class="news-link">经济学家：美印两国之间的贸易实际上已经死亡</a> [8] <font color='grey'>- 23时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806230350642800" target="_blank" class="news-link">市场消息：房地美扩大融资选择以增加经济适用房供应。</a> [20] <font color='grey'>- 23时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">A股 港股 基金</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051815" target="_blank" class="news-link">格隆汇公告精选(港股)︱统一企业中国(00220.HK)上半年纯利达12.867亿元 同比上升33.2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美债 美股</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051814" target="_blank" class="news-link">美股异动丨Capri盘初一度涨超18% 首财季业绩胜预期</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

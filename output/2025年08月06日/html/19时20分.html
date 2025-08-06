@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 96</p><p>生成时间: 2025-08-06 19:20:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美债 美股</td>
+                <td class="count">7</td>
+                <td class="percentage">7.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806190151405800" target="_blank" class="news-link">麦当劳(MCD.N)美股盘前涨近3%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3596982_101_1" target="_blank" class="news-link">Shopify第二季度营收26.8亿美元，预估25.5亿美元。Shopify美股盘前涨超9%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2107932?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月6日电，美股期货小幅走低，纳斯达克100指数期货回吐早前0.4%涨幅而转跌。</a> [8] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2107928?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月6日电，迪士尼美股盘前跌超2%，其第三财季营收不及预期。</a> [10] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806185951743800" target="_blank" class="news-link">Uber(UBER.N)美股盘前跌超5%。</a> [12] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2107922?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月6日电，爱奇艺美股盘前涨幅迅速扩大至6%，有报道称爱奇艺寻求通过在香港市场上市融资3亿美元。</a> [14] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2107917?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月6日电，爱奇艺美股盘前小幅拉升，有报道称爱奇艺寻求通过在香港市场上市融资3亿美元。</a> [18] <font color='grey'>- 19时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">A股 港股 基金</td>
+                <td class="count">3</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051622" target="_blank" class="news-link">皓元医药(688131.SH)：苏信基金拟减持不超过3%股份</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051617" target="_blank" class="news-link">同济科技(600846.SH)：全资孙公司拟参与设立基金管理公司</a> [8] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534382570831200265/" target="_blank" class="news-link">今天A股三大指数集体收涨</a> [12] <font color='grey'>- 19时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">利率 汇率</td>
+                <td class="count">3</td>
+                <td class="percentage">3.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250806190002355801" target="_blank" class="news-link">美国至8月1日当周MBA30年期固定抵押贷款利率 6.77%，前值6.83%。</a> [8] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3596921_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至8月1日当周，美国30年期平均抵押贷款利率下降6个基点至6.77%。</a> [15] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2107913?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月6日电，汤森路透公司第二季度收入按固定汇率计算增长5%。该公司预计2025年第三季度调整后的息税折旧摊销前利润率约为36%。</a> [20] <font color='grey'>- 19时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">经济</td>
+                <td class="count">2</td>
+                <td class="percentage">2.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3596938_100_1" target="_blank" class="news-link">印尼高级经济部长：印尼称仍在与美国讨论对美国商品进口实施0%关税的时机。</a> [11] <font color='grey'>- 19时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1936402326937137823" target="_blank" class="news-link">韩国 9 月 29 日起对中国团队游客实行临时免签政策，这对韩国旅游业和经济会带来哪些影响？</a> [15] <font color='grey'>- 19时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">债券 国债 信用债 企业债 地方债</td>
+                <td class="count">1</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3596954_100_1" target="_blank" class="news-link">印度10年期基准政府债券收益率升至5月9日以来最高水平，现报6.4120%。</a> [9 - 29] <font color='grey'>- 19时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2025-08-07 09:55:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">A股 港股 基金</td>
+                <td class="count">8</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051955" target="_blank" class="news-link">港股异动丨苹果概念股集体走强，瑞声科技涨超6%，舜宇涨超5%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051954" target="_blank" class="news-link">A股早评：沪指高开0.1% 苹果概念股盘初活跃</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051953" target="_blank" class="news-link">港股异动丨发盈喜，新鸿基公司高开超5%，股价创逾10年新高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051951" target="_blank" class="news-link">港股早评：三大指数高开 科技股普涨 苹果概念股强势 汽车股低迷</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807091220762800" target="_blank" class="news-link">金十数据整理：每日港股市场要闻速递（2025-08-07）</a> [8] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752742" target="_blank" class="news-link">A股三大股指集体收涨，军工股持续爆发，上纬新材跌停，焦煤涨超6%，港股窄幅震荡，泡泡玛特涨超7%</a> [9] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807090413966800" target="_blank" class="news-link">金十数据整理：A股盘前市场要闻速递（2025-08-07）</a> [9] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31312948" target="_blank" class="news-link">时隔十年，A股两融余额重返2万亿！什么信号？</a> [18] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美债 美股</td>
+                <td class="count">6</td>
+                <td class="percentage">3.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752789" target="_blank" class="news-link">所有历史趋势都不再有效！美股散户让华尔街投资者措手不及</a> [7] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051948" target="_blank" class="news-link">美股异动｜E.l.f. Beauty夜盘跌超13.2% Q2净利润同比降30% 未提供全年收入指引</a> [8] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051947" target="_blank" class="news-link">美股异动｜Lyft夜盘跌超3.4% Q2营收及总订单量略低于市场预期</a> [9] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051943" target="_blank" class="news-link">美股异动｜DoorDash夜盘涨约8.9% Q2营收超预期且扭亏为盈</a> [13] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5051941" target="_blank" class="news-link">美股异动丨联掌科技控股跌27.78%，为跌幅最大的中概股</a> [15] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3598884_0_1" target="_blank" class="news-link">摩根士丹利：给予小鹏汽车增持评级，美股目标价为28美元。</a> [16] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">大宗商品 黄金</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3598918_0_1" target="_blank" class="news-link">【行情】现货黄金向上触及3380美元/盎司，日内涨0.33%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807090109294800" target="_blank" class="news-link">上海黄金交易所黄金T+D 8月7日（周四）早盘盘初下跌0.06%报779.79元/克；&lt;br/&gt;上海黄金交易所白银T+D 8月7日（周四）早盘盘初上涨0.32%报9168.0元/千克。</a> [11] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">债券 国债 信用债 企业债 地方债</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20250807093120884800" target="_blank" class="news-link">国债期货早盘开盘</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3598874_100_1" target="_blank" class="news-link">【行情】日本10年期国债收益率下跌1个基点至1.485%。</a> [20] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">利率 汇率</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3598903_100_1" target="_blank" class="news-link">中国央行今日开展1607亿元人民币7天期逆回购操作，中标利率为1.40%，与此前持平；因今日有2832亿元7天期逆回购到期，当日实现净回笼1225亿元。</a> [7 - 27] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3598878_100_1" target="_blank" class="news-link">中国台湾银行间隔夜拆借利率开盘报0.805%（与前一交易日开盘持平）。</a> [18] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">经济</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3598894_0_1" target="_blank" class="news-link">美元因经济数据疲软及美联储降息预期而走软</a> [11] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
